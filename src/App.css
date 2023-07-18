@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+body {
+  background-color: #002244;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1, h2, p {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 28px;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  font-size: 24px;
+  font-weight: normal;
 }
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+strong {
+  font-weight: bold;
+}
+
+q {
+  font-style: italic;
+}
+
+.welcome-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  padding: 20px;
+  text-align: center;
+}
+
+.AffordableThreads{
+  text-align: center;
+}
+
+.AffordableThreadsWelcome{
+  text-align: center;
+}
+
+.AffordableThreadsMessage{
+  text-align: center;
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  max-width: 800px;
+  background-color: #002244;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.box a {
+  text-decoration: none;
+  color: inherit; /* Maintain the color of the text inside the link */
+}
+
+.AffordableThreads {
+  margin-top: 0;
+}
+
+.box {
+  transition: background-color 0.3s ease;
+}
+
+.box:hover {
+  background-color: #001633;
+}
+
